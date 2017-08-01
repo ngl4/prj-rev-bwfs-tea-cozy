@@ -1,0 +1,227 @@
+html, body {
+
+	margin: 0;
+	border: 0;
+	background-color: black;
+	font-family: Helvetica;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 22px;
+	width: 100%;
+
+}
+
+
+/*Header and Navigation*/
+
+
+#header {
+
+	background-color: black;
+	color: white;
+	position: fixed;
+	height: 69px;
+	width: 100%;
+	z-index: 10;
+	border-bottom: solid seashell 1px;
+}
+
+.navigation img {
+
+	height: 50px;
+	text-align: left;
+	margin-left: 10px;
+	padding-top: 10px;
+
+}
+
+.navigation {
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation li {
+
+	display: inline-block;
+	width: 150px;
+	text-align:  center;
+
+}
+
+.navigation a {
+
+	text-decoration: underline;
+	color: seashell;
+	font-size: 22px;
+}
+
+
+/*Mission Statement*/
+
+#mission {
+
+	background-image: url('../images/mission-background.jpg');
+	height: 700px;
+	width: 1200px;
+	position: relative;
+	top: 69px;
+	display: inline-block;
+
+}
+
+
+.statement {
+
+	background-color: black;
+	position: relative;
+	top: 290px;
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+
+}
+
+.statement h4 {
+
+	font-size: 20px;
+}
+
+
+/*Featured Tea*/
+
+#featured-tea {
+
+	width: 1000px;
+	padding-top: 100px;
+	position: relative;
+	top: 100px;
+	left: 130px;
+	align-content: space-between;
+
+}
+
+.tea-month {
+
+	position: absolute;
+	left: 320px;
+	bottom: 420px;
+}
+
+.tea {
+
+	display: inline-block;
+	height: 200px;
+	width: 300px;
+	flex-wrap: wrap;
+	position: relative;
+	top: 30px;
+}
+
+.tea img {
+
+	display: inline-block;
+	height: 200px;
+	width: 300px;
+}
+
+
+.tea-container {
+
+	justify-content: space-around;
+	position: relative;
+	top: 100px;
+}
+
+
+
+
+ /*locations*/
+
+ #locations-head {
+
+	position: absolute;
+	top: 110px;
+}
+
+ #locations {
+
+ 	background-image: url('../images/locations-background.jpg');
+ 	width: 1200px;
+ 	height: 550px;
+ 	position: relative;
+ 	top:300px;
+ 	left: 30px;
+
+
+
+ }
+
+ .downtown,
+ .east_bayside,
+ .oakdale {
+
+ 	background-color: black;
+ 	width: 300px;
+ 	height: 300px;
+ 	opacity: 1;
+ 	position: relative;
+ 	top: 200px;
+
+
+ }
+
+ .loca-container {
+
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+ }
+
+
+/*Contact*/
+
+#contact {
+
+	position: relative;
+	top: 290px;
+
+}
+
+#contact p {
+
+	font-size: 15px;
+}
+
+
+
+/*Copyright*/
+
+#copyright {
+
+	position: relative;
+	top: 310px;
+}
+
+#copyright p {
+
+	text-align: left;
+	font-size: 15px;
+}
+
+
+/* QUESTIONS: 1 ) I do not really know how to create more 
+space in between the featured tea images;
+
+2) I do not know how to minimize the space in 
+between the image and the text and set the space as 10px
+
+3) I do not know how to minimize the space 
+in between two tags, such as the space 
+in between "Our Mission" and the following statement 
+"Handpicked..." && the addresses in the locations setting.
+
+4) I feel like I need to adjust the website a lot in terms of positioning 
+whenever I make changes. I wonder how I can improve and what I do differently 
+to avoid changing positioning a lot whenever I make any small changes to the page. 
+
